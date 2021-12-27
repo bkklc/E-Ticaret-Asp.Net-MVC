@@ -1,0 +1,126 @@
+﻿@model IEnumerable<E_Ticaret.Models.Category>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<br />
+
+<div id="themeSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#themeSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#themeSlider" data-slide-to="1"></li>
+        <li data-target="#themeSlider" data-slide-to="2"></li>
+        <li data-target="#themeSlider" data-slide-to="3"></li>
+
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="imgOverlay"></div>
+            <img src=~/frontend/img/slider1.jpg alt="First slide">
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgOverlay"></div>
+            <img src="~/frontend/img/slider-2091453_1280-1024x341.jpg" alt="Second slide">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgOverlay"></div>
+            <img src="~/frontend/img/slider-1.jpg" alt="Third slide">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgOverlay"></div>
+            <img src="~/frontend/img/slider-2091453_1280-1024x341.jpg" alt="Four slide">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <a class="left carousel-control" href="#themeSlider" data-slide="prev">
+        <span class="fa fa-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#themeSlider" data-slide="next">
+        <span class="fa fa-chevron-right"></span>
+    </a>
+
+
+</div>
+
+<br />
+<br />
+<br />
+
+<h1>E-Ticaret Sitemize Hoşgeldiniz</h1>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 " >
+                <a href="/Account/Login?ReturnUrl=%2FHome%2Fcategorylist"><img src="~/frontend/img/Ikinci-El-Elektronik-Esya-Alanlar-800x445.jpg" width="150" height="150"  class="card-img-top"></a>
+
+                <div class="card-body">
+                    <h5 class="card-title">Elektronik</h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Account/Login?ReturnUrl=%2FHome%2Fcategorylist"><img src="~/frontend/img/Spor-Giyim-Tarzi-Yaratmanin-5-Yolu-20df.jpeg" width="150" height="150" class="card-img-top"></a>
+
+                <div class="card-body">
+                    <h5 class="card-title">Giyim</h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Account/Login?ReturnUrl=%2FHome%2Fcategorylist"><img src="~/frontend/img/Futbol-Spor-Ekipmanları2.jpg" width="150" height="150" class="card-img-top"></a>
+
+                <div class="card-body">
+                    <h5 class="card-title">Spor</h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Account/Login?ReturnUrl=%2FHome%2Fcategorylist"><img src="~/frontend/img/Her-Ofiste-Bulunması-Gereken-Ofis-Malzemeleri-1170x781.jpg" width="150" height="150" class="card-img-top"></a>
+
+                <div class="card-body">
+                    <h5 class="card-title">Ofis, Kırtasiye</h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <a href="/Account/Login?ReturnUrl=%2FHome%2Fcategorylist"><img src="~/frontend/img/arac-aksesuarlari-750x500.jpg" width="150" height="150" class="card-img-top"></a>
+
+                <div class="card-body">
+                    <h5 class="card-title">Otomobil</h5>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
